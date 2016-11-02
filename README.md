@@ -44,7 +44,7 @@ Weekly Homework
 
 | \#       | Assignment | Class Topic | Due Date |
 | :------: | ---------- | ----------- | -------- |
-| 1 | [Eloquent JavaScript: interactive chapters 1 & 2](https://github.com/svodnik/sfjs5/tree/master/01-command-line-JS) | JavaScript on the command line | - |
+| 1 | [Eloquent JavaScript: interactive chapters 1 & 2](https://github.com/svodnik/sfjs5/tree/master/01-command-line-JS) | JavaScript on the command line | Thursday, November 3rd |
 | 2 | - | - | - |
 | 3 | - | - | - |
 | 4 | - | - | - |
