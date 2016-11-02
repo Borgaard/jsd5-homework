@@ -10,12 +10,12 @@ Follow these directions closely to switch over to this repository.
 
 1. Fork this repository.
 2. Clone your fork to your ```~/code``` folder.
-3. Create a directory in the ```jsd5-homework``` folder using your real name and github account name, like ```jsd5-homework/Sasha-svodnik```. That will make it easier for us to remember everyone's github name. :)
+3. Create a directory in the ```jsd5-homework``` folder using your real name and github account name. Example: ```jsd5-homework/Sasha-svodnik```. That will make it easier for us to remember everyone's github name. :)
 4. For each homework make sure to put your files in a new `hw_x` directory in your named directory. Example for homework #2: `jsd5-homework/Sasha-svodnik/hw_2/hubot.js`
 
 Example of how your local homework directory should be structured:
 
-    
+
     |-- code/   
         |-- jsd5-homework/
             |-- firstName-githubUsername/
@@ -27,7 +27,7 @@ Example of how your local homework directory should be structured:
                 |-- hw_3/
                 |-- hw_4/
                 |-- hw_5/
-            
+
 
 Instructions
 -------------
