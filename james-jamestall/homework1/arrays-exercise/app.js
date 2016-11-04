@@ -79,6 +79,14 @@ console.log("newNumbers" + newNumbers);
  * Using the array from Question 5, find the average of the numbers in the array
  * (average = sum of all numbers/number of numbers). Store the average in q6.
  */
+var totalCount = 0;
+var numberCount = 0;
 
+newNumbers.forEach(function(element) {
+    totalCount = totalCount + element;
+    ++numberCount
+});
 
-// Your code here
+var average = totalCount / numberCount;
+
+console.log(average);
