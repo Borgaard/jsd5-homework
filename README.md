@@ -1,11 +1,13 @@
 JavaScript Development Homework Repository
 =============================
 
-This is the repository where you'll submit your homework.
+> Office hours:<br>
+Tuesdays & Thursdays from 5:30-6:30, located in classroom 7 or in the workspace (fire escape/lounge) just outside the classroom.
 
 How To Use This Repo
 -----------------------
 
+This is the repository where you'll submit your homework.    
 Follow these directions closely to switch over to this repository.
 
 1. Fork this repository.
