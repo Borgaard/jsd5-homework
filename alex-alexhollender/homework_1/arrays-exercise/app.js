@@ -89,7 +89,7 @@ console.log("Question 5 " + q5);
 var p = 0;
 
 for(i = 0; i < q5.length; i++) { 
-  p = (p + q5[i]);
+  p += q5[i];
 }
 
 q6 = p / q5.length;
