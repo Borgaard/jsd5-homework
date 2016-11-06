@@ -68,14 +68,14 @@ console.log("Question 4 " + q4);
 
 // Your code here
 
-var q5 = [1, 2, 3, 4];
-var q5_other = [];
+var x = [1, 2, 3, 4];
+var q5 = [];
 
-for (i = 0; i < q5.length; i++) {
-	q5_other.push(q5[i] + 1);
+for (i = 0; i < x.length; i++) {
+	q5.push(x[i] + 1);
 }
 
-console.log("Question 5 " + q5_other);
+console.log("Question 5 " + q5);
 
 /**
  * Question 6
@@ -86,6 +86,12 @@ console.log("Question 5 " + q5_other);
 
 // Your code here
 
-q6 = (q5_other[0] + q5_other[1] + q5_other[2] + q5_other[3]) / 4;
+var p = 0;
 
-console.log("Question 5 " + q6);
+for(i = 0; i < q5.length; i++) { 
+  p = (p + q5[i]);
+}
+
+q6 = p / q5.length;
+
+console.log("Question 6 " + q6);
