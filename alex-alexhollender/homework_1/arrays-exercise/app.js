@@ -14,7 +14,7 @@
 // Your code here
 
 var q1 = ["image1.png", "image2.png", "image3.png"];
-console.log("Question 1" + q1);
+console.log("Question 1 " + q1);
 
 /**
  * Question 2
@@ -25,7 +25,7 @@ console.log("Question 1" + q1);
 // Your code here
 
 var q2 = q1[0];
-console.log("Question 1" + q2);
+console.log("Question 2 " + q2);
 
 /**
  * Question 3
@@ -36,7 +36,7 @@ console.log("Question 1" + q2);
 // Your code here
 
 var q3 = q1.length;
-console.log("Question 1" + q3);
+console.log("Question 3 " + q3);
 
 /**
  * Question 4
@@ -48,7 +48,7 @@ console.log("Question 1" + q3);
 // Your code here
 
 var q4 = q1[(q1.length-1)];
-console.log("Question 1" + q4);
+console.log("Question 4 " + q4);
 
 
 // ____________________________________________________________________________
@@ -68,15 +68,14 @@ console.log("Question 1" + q4);
 
 // Your code here
 
-var q5 = [1, 2, 3, 4, 5];
-var q6 = [];
+var q5 = [1, 2, 3, 4];
+var q5_other = [];
 
 for (i = 0; i < q5.length; i++) {
-	q6.push(q5[i] + 1);
+	q5_other.push(q5[i] + 1);
 }
 
-console.log(q6);
-console.log("Question 1" + q6);
+console.log("Question 5 " + q5_other);
 
 /**
  * Question 6
@@ -86,3 +85,7 @@ console.log("Question 1" + q6);
 
 
 // Your code here
+
+q6 = (q5_other[0] + q5_other[1] + q5_other[2] + q5_other[3]) / 4;
+
+console.log("Question 5 " + q6);
