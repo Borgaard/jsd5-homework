@@ -14,6 +14,7 @@
 // Your code here
 var q1 = ["image1.png", "image2.png", "image3.png"];
 
+
 /**
  * Question 2
  * Using the array from Question 1, store the first element of the array
@@ -22,6 +23,7 @@ var q1 = ["image1.png", "image2.png", "image3.png"];
 
 // Your code here
 var q2 = q1[0];
+
 /**
  * Question 3
  * Get the length of the first array (number of elements in the array)
@@ -29,17 +31,15 @@ var q2 = q1[0];
  */
 
 // Your code here
-var q3 = q1.length();
+var q3 = q1.length;
 
 /**
  * Question 4
  * Using the array from Question 1, store the last element of the array
  * in variable q4. Hint: How can we get the number of elements in the array?
  */
-var q4 = q1.pop();
 
-// Your code here
-
+var q4 = q1[q1.length-1];
 
 // ____________________________________________________________________________
 
@@ -57,6 +57,12 @@ var q4 = q1.pop();
  */
 
 // Your code here
+var myNumbers = [ 1 , 2 , 3 ,4 ];
+
+var q5 = myNumbers.map(function(apple){
+    return apple + 1 ;
+});
+document.write(q5);
 
 
 /**
@@ -67,3 +73,11 @@ var q4 = q1.pop();
 
 
 // Your code here
+var sum = 0;
+
+for(i = 0 ; i < q5.length ; i++){
+    sum += q5[i];
+}
+var q6 = sum/q5.length ;
+console.log(q6);
+// How can I do this with reduce method?

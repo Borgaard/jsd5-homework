@@ -10,3 +10,35 @@
   conditional statements at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else). 
 */
 
+
+/*
+var totalBear = 99;
+for ( var count = totalBear ; count > 0 ; count-- ) {
+  var countRemain = count - 1;
+  console.log("\n" + count +  " bottles of beer on the wall , " + count + " bottles of beer. \nTake one down and pass it around, " + countRemain + " bottles of beer on the wall.");
+}
+console.log("\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.");
+*/
+
+
+var totalBear = 99;
+for ( var count = totalBear ; count > 0 ; count-- ) {
+    var countRemain = count - 1;
+    if (count >= 3) {
+        console.log("\n" + count +  " bottles of beer on the wall , " + count + " bottles of beer. \nTake one down and pass it around, " + countRemain + " bottles of beer on the wall.");
+    }
+    else if (count == 2) {
+        console.log("\n" + count +  " bottles of beer on the wall , " + count + " bottles of beer. \nTake one down and pass it around, " + countRemain + " bottle of beer on the wall.");
+    }
+    else {
+        console.log("\n" + count +  " bottle of beer on the wall , " + count + " bottle of beer. \nTake one down and pass it around, " + countRemain + " bottle of beer on the wall.");
+    } 
+}
+console.log("\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.");
+
+
+
+
+
+
+
