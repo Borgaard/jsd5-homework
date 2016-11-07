@@ -67,11 +67,22 @@ var numbers = [1,2,3,4];
 var newNumbers = []
 
 for (var i = 0; i < numbers.length; i++) {
-	newNumbers[i] = numbers[i]++;
+	newNumbers[i] = numbers[i] + 1;
 }
 
-console.log("numbers" + newNumbers);
+console.log("numbers" + numbers);
 console.log("newNumbers" + newNumbers);
+
+
+
+
+var numberTwo = [1,2,3,4];
+
+for (var i = 0; i < numberTwo.length; i++) {
+	numberTwo[i]++;
+}
+
+console.log("numberTwo" + numberTwo);
 
 
 /**
