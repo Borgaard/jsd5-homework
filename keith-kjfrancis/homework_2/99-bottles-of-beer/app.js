@@ -10,3 +10,17 @@
   conditional statements at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else). 
 */
 
+var bottles
+
+for (var bottles = 99; 0 > bottles; bottles--) {
+    if (bottles !== 1) {
+      song+= (bottles + " Bottles of beer on the wall " + bottles + " bottles of beer \n");
+      song+= ("Take one down and pass it around, " + (bottles - 1) + " bottles of beer on the wall \n");
+      song+= "\n";
+    } else {
+       song+= (bottles + " Bottle of beer on the wall " + bottles + " bottle of beer \n");
+       song+= ("Take one down and pass it around, " +( bottles - 1) + " bottles of beer on the wall \n");
+       song+= "\n";
+    }
+    console.log(song);
+}
