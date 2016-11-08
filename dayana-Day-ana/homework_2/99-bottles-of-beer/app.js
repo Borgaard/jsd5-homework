@@ -10,3 +10,15 @@
   conditional statements at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else). 
 */
 
+var bottleCount = 0;
+	for(var i = 99; i > 0; i--){
+
+		bottleCount = i--;
+
+		if (bottleCount == 1){
+			console.log(bottleCount + " bottle of beer on the wall," + bottleCount + " bottle of beer. \n Take one down and pass it around, " + i + " bottles of beer on the wall. ");
+		}
+		else{
+			console.log(bottleCount + " bottles of beer on the wall," + bottleCount + " bottles of beer. \n Take one down and pass it around, " + i + " bottles of beer on the wall. ");
+		}
+	}
