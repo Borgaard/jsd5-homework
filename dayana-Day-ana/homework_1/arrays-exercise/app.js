@@ -41,7 +41,6 @@ var q3 = q1.length;
 
 // Your code here
 var q4 = q1.pop();
-
 // ____________________________________________________________________________
 
 /**
@@ -61,11 +60,8 @@ var q4 = q1.pop();
 
 var q5 = [1, 2, 3, 4]
 
-console.log(q5);
-
 q5.forEach(function(el){
 	el++;
-	// console.log(el)
 });
 
 
@@ -75,12 +71,14 @@ q5.forEach(function(el){
  * (average = sum of all numbers/number of numbers). Store the average in q6.
  */
 
- for(var i = 0; i < q5.length; i++){
- 		
+// Your code here
 
- 	console.log(q5[i])
+var q6 ;
+var sum = null;
+ for(var i = 0; i < q5.length; i++){
+
+ 	sum = sum + q5[i];
 
  }
 
-
-// Your code here
+q6 = sum/q5.length;
