@@ -11,7 +11,9 @@
  * Use "image1.png", "image2.png", and "image3.png" as the array values.
  */
 
-var images = ["image1.png","image2.png","image3.png"];
+// Your code here
+
+var q1 = ["image1.png", "image2.png", "image3.png"];
 
 /**
  * Question 2
@@ -19,7 +21,8 @@ var images = ["image1.png","image2.png","image3.png"];
  * in variable q2.
  */
 
-var q2 = images[0]
+// Your code here
+var q2 = q1[0];
 
 /**
  * Question 3
@@ -27,7 +30,8 @@ var q2 = images[0]
  * and store it in variable q3
  */
 
-var q3 = images.length 
+// Your code here
+var q3 = q1.length;
 
 /**
  * Question 4
@@ -35,10 +39,8 @@ var q3 = images.length
  * in variable q4. Hint: How can we get the number of elements in the array?
  */
 
-
-var q4 = images[2]
-
-
+// Your code here
+var q4 = q1.pop();
 // ____________________________________________________________________________
 
 /**
@@ -54,13 +56,14 @@ var q4 = images[2]
  * an array of numbers with values 2, 3, 4, and 5.
  */
 
+// Your code here
 
+var q5 = [1, 2, 3, 4]
 
-var numbers = [1,2,3,4];
+q5.forEach(function(el){
+	el++;
+});
 
-for (i = 0; i < numbers.length; i++){
-    numbers[i]++
-}
 
 /**
  * Question 6
@@ -68,3 +71,14 @@ for (i = 0; i < numbers.length; i++){
  * (average = sum of all numbers/number of numbers). Store the average in q6.
  */
 
+// Your code here
+
+var q6 ;
+var sum = null;
+ for(var i = 0; i < q5.length; i++){
+
+ 	sum = sum + q5[i];
+
+ }
+
+q6 = sum/q5.length;
