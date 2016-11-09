@@ -43,11 +43,10 @@ Weekly Homework
 
 **Submit homework by pushing to your jsd5-homework repo, then submit a pull request**
 
-
-| \#       | Assignment | Class Topic | Due Date |
-| :------: | ---------- | ----------- | -------- |
-| 1 | [Eloquent JavaScript: interactive chapters 1 & 2](https://github.com/svodnik/sfjs5/tree/master/01-command-line-JS) | JavaScript on the command line | Thursday, November 3rd |
-| 2 | [99 Bottles of Beer](https://github.com/svodnik/sfjs5/tree/master/02-data-types-loops) - _contains reading for next week_ | Data types & loops | Tuesday, November 8th |
-| 3 | - | - | - |
-| 4 | - | - | - |
-| 5 | - | - | - |
+ \#       | Assignment | Class Topic | Due Date
+ :------: | :--------- | :---------- | :-------
+ 1 | [Eloquent JavaScript: interactive chapters 1 & 2](https://github.com/svodnik/sfjs5/tree/master/01-command-line-JS) | JavaScript on the command line | Thursday, November 3rd
+ 2 | [99 Bottles of Beer](https://github.com/svodnik/sfjs5/tree/master/02-data-types-loops) - _contains reading for next week_ | Data types & loops | Tuesday, November 8th
+ 3 | [Dice, Ages, and FizzBuzz](https://github.com/svodnik/sfjs5/tree/master/03-conditionals-functions). Bonus: random address generator. - _contains reading for next week_ | Conditionals & Functions | Tuesday, November 15th 
+ 4 | - | - | -
+ 5 | - | - | -
