@@ -2,7 +2,7 @@
 
 // Initiale Variable Bottles and assign value
 var bottlesTotal = 99;
-// Create variables for the different parts of the sentence 
+// Create array for the different parts of the sentence 
 var songArray = [" bottles of beer on the wall, ", " bottles of beer. \n", "Take one down and pass it around, ", " bottles of beer on the wall."];
 
 
@@ -13,10 +13,8 @@ while(bottlesTotal > 0){
   if(bottlesTotal > 1){
       console.log(bottlesTotal + songArray[0] + bottlesTotal + songArray[1] + songArray[2] + (bottlesTotal-1) + songArray[3]);
   } else {
-       // Create a new variable that replaces the word bottles to bottle
-      var firstLineI_1 = songArray[0].replace("bottles", "bottle");
-      var firstLineII_1 = songArray[1].replace("bottles", "bottle");
-      console.log(bottlesTotal + firstLineI_1 + bottlesTotal + firstLineII_1 + songArray[2] + (bottlesTotal-1) +songArray[3]);
+       // Replace the word bottles to bottle
+      console.log(bottlesTotal + songArray[0].replace("bottles", "bottle") + bottlesTotal + songArray[1].replace("bottles", "bottle") + songArray[2] + (bottlesTotal-1) +songArray[3]);
   };
 
   bottlesTotal --;
