@@ -57,12 +57,19 @@ var q4 = q1[q1.length-1];
  */
 
 // Your code here
+//Using map method
 var myNumbers = [ 1 , 2 , 3 ,4 ];
 
-var q5 = myNumbers.map(function(apple){
-    return apple + 1 ;
+var q5 = myNumbers.map(function(num){
+    return num + 1 ;
 });
 document.write(q5);
+
+//Using for loop with only one variable
+// var myNumbers = [ 1 , 2 , 3 ,4 ];
+// for (i=0 ; i < myNumbers.length ; i++ ){
+//     myNumbers[i]++;
+// }
 
 
 /**
