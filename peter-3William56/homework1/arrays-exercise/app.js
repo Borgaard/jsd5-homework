@@ -12,7 +12,8 @@
  * Use "image1.png", "image2.png", and "image3.png" as the array values.
  */
 
-var q1 = ["image1.png", "image2.png", "image3.png"]
+// Your code here
+var q1 = ["image1.png", "image2.png", "image3.png"];
 
 
 /**
@@ -22,7 +23,7 @@ var q1 = ["image1.png", "image2.png", "image3.png"]
  */
 
 // Your code here
-var q2 = q1[0]
+var q2 = q1[0];
 
 
 /**
@@ -32,6 +33,8 @@ var q2 = q1[0]
  */
 
 // Your code here
+var q3 = q1.length;
+// or
 
 
 /**
@@ -43,6 +46,7 @@ var q2 = q1[0]
 
 // Your code here
 
+var q4 = q1.length - 1; 
 
 // ____________________________________________________________________________
 
@@ -60,7 +64,11 @@ var q2 = q1[0]
  */
 
 // Your code here
+var q5 = [1,2,3,4,5];
 
+for (var i = 0; i <= q5.length - 1; i++) {
+    console.log(q5[i] + 1);
+}
 
 /**
  * Question 6
@@ -69,4 +77,15 @@ var q2 = q1[0]
  */
 
 
-// Your code here
+/* Your code here: 
+NICOLE: This is a formula I found on MDN.
+I'm surprised this isn't an array summation helper method
+*/
+
+var sum = q5.reduce(function(a, b) {
+return a + b;}, 1);
+// = 16
+
+sum/q5.length;
+//=3.2
+
