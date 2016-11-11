@@ -67,7 +67,7 @@ var q5 = [1,2,3,4]
 
 
 for (var i=0; i < q5.length; i++ ){
-    q5[i] = q5[i]+1;
+    q5[i] ++;
     console.log(q5[i]);
 
 }
@@ -81,3 +81,14 @@ for (var i=0; i < q5.length; i++ ){
 
 
 // Your code here
+
+var arrayTotal=0;
+
+for (var i=0; i < q5.length; i++ ){
+    arrayTotal += q5[i];
+    console.log(arrayTotal);
+}
+
+var arrayAverage = arrayTotal/q5.length;
+console.log(arrayAverage);
+
