@@ -30,11 +30,13 @@ var stateName = [];
 var zipCode = [];
 
 // Build a script to generate random street numbers and zip code, and figure out how to convert numbers to letters to randomly generate state name
-
+function newStreetNumber() {
+	return Math.ceil(Math.random() * 20000);
+}
 
 for (var i = 0; i <= 10; i++) {
 	// Create an address number
-	streetNumber[i] = Math.ceil(Math.random() * 20000);
+	streetNumber[i] = newStreetNumber();
 	// Make up a silly State Name
 	stateName[i] = (String.fromCharCode((Math.floor(Math.random() * 26)) + 65))+(String.fromCharCode((Math.floor(Math.random() * 26)) + 65));
 	// Create a zip code (little tricky because you need 5 digits, yet 00032 is valid)

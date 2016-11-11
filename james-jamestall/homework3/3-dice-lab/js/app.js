@@ -55,12 +55,12 @@ function rollDice() {
 }
 
 // Old attempt
-// function rollDice() {
-// 	var random1 = Math.ceil((Math.random()*6));
-// 	var random2 = Math.ceil((Math.random()*6));
-	// var firstDieClass = "dice dice-" + random1;
-	// var secondDieClass = "dice dice-" + random2;
-	// document.getElementById("first-die").className = firstDieClass;
-	// document.getElementById("second-die").className = secondDieClass;
+function rollDice() {
+	var random1 = Math.ceil((Math.random()*6));
+	var random2 = Math.ceil((Math.random()*6));
+	var firstDieClass = "dice dice-" + random1;
+	var secondDieClass = "dice dice-" + random2;
+	document.getElementById("first-die").className = firstDieClass;
+	document.getElementById("second-die").className = secondDieClass;
 // }
 
