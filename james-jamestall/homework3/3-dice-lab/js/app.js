@@ -47,60 +47,20 @@ button.onclick = functionName()
 // create a listener for button.click events that updates the updates the die images
 
 
-
-// Program
-
-// Generate a random number between 1-6
-// set random number to random1
-
-// var random1 = Math.ceil((Math.random()*6));
-
-// console.log("Random 1 = " + random1);
-
-// // Generate another random number between 1-6
-// // set random number to random2
-
-// var random2 = Math.ceil((Math.random()*6));
-
-// console.log("Random 2 = " + random2);
-
-// // combine dice# w random1 to form the css class name for firstDie
-
-// var firstDieClass = "dice dice-" + random1;
-
-// console.log("First Die Class= " + firstDie);
-
-// // combine dice# w random2 to form the css class name for secondDie
-
-// var secondDieClass = "dice dice-" + random2;
-
-// console.log("Second Die Class= " + secondDie);
-
-// Get the first die by ID and update the background with the dice# css
-
-// do same thing for the 2nd die
-// create a listener for button.click events that updates the updates the die images
-
-
-// Try putting the randoms into an array which gets used by the functions
-
 function rollDice() {
 	var random1 = Math.ceil((Math.random()*6));
 	var random2 = Math.ceil((Math.random()*6));
 	document.getElementById("first-die").className = "dice dice-" + random1;
 	document.getElementById("second-die").className = "dice dice-" + random2;
+}
+
+// Old attempt
+// function rollDice() {
+// 	var random1 = Math.ceil((Math.random()*6));
+// 	var random2 = Math.ceil((Math.random()*6));
 	// var firstDieClass = "dice dice-" + random1;
 	// var secondDieClass = "dice dice-" + random2;
 	// document.getElementById("first-die").className = firstDieClass;
 	// document.getElementById("second-die").className = secondDieClass;
-}
-
-
-//Maryam's Code
-// document.getElementById("first-die").src = diceLeft[random1];
-
-
-
-
-
+// }
 
