@@ -36,13 +36,13 @@ while (i > -1) {
 	if (i > 1) {
 
 		if (i === 2) {
-			
+			// i = 2 (two bottles on wall, take one down, one *bottle* remains)
 			console.log(i + " bottles of beer on the wall, " + i + " bottles of beer. Take one down and pass it around, " + (i - 1) + " more bottle of beer on the wall.");
 		
 			--i;
 		
 		} else {
-
+			// i > 2
 			console.log(i + " bottles of beer on the wall, " + i + " bottles of beer. Take one down and pass it around, " + (i - 1) + " more bottles of beer on the wall.");
 			
 			--i;
