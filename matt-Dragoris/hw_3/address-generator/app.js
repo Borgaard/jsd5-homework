@@ -10,7 +10,7 @@ Optional bonus work on conditionals and functions:
 */
 
 (function getAddress(num) {
-	var addressArray = []; 								//Array to be returned and static data
+	var addressArray = []; //Array to be returned and static data
 	var streetName = ['Warren', 'Bank', 'Valley', 'View', 'Highland', 'Route', 'Buttonwood', 'York', 'Liberty', 'Front', 'Maple',
 					'Riverside', 'Locust', 'Route', 'College', 'John', 'Willow', 'Adams', 'Grant', 'Garfield', 'Franklin', 'Laurel',
 					'West', 'Carriage', 'Market', 'Deerfield ', 'River', 'Cemetery' ,'Clinton', 'Surrey', 'Sherwood', 'Delaware', 
@@ -20,12 +20,12 @@ Optional bonus work on conditionals and functions:
 				'NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','MD','MA','MI','MN','MS','MO','PA','RI','SC','SD','TN','TX',
 				'UT','VT','VA','WA','WV','WI','WY'];
 	
-	function createRandomAddress(single) { 				//adds a randomized, formated address string to the array
+	function createRandomAddress(single) { //adds a randomized, formated address string to the array
 
-		function randNum(min, max){						// used to select the value at that array index
+		function randNum(min, max){	// used to select the value at that array index
 			return Math.round(Math.random()* (max - min) + min); 
 		}
-														//randomize, combine, and push an address
+		//randomize, combine, and push an address
 		var streetNumber = Math.round(Math.random() * 10000);
 		var randomStreet = streetName[randNum(0,streetName.length-1)];
 		var randomType = streetType[randNum(0,streetType.length-1)];
@@ -37,7 +37,7 @@ Optional bonus work on conditionals and functions:
 
 	}
 	
-	if (num) { 											//if called with a parameter, return that many addresses
+	if (num) { //if called with a parameter, return that many addresses
 		for (var i = 0; i < num; i++) { 
 			createRandomAddress(); 
 		}
