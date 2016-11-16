@@ -48,5 +48,5 @@ Weekly Homework
  1 | [Eloquent JavaScript: interactive chapters 1 & 2](https://github.com/svodnik/sfjs5/tree/master/01-command-line-JS) | JavaScript on the command line | Thursday, November 3rd
  2 | [99 Bottles of Beer](https://github.com/svodnik/sfjs5/tree/master/02-data-types-loops) - _contains reading for next week_ | Data types & loops | Tuesday, November 8th
  3 | [Dice, Ages, and FizzBuzz](https://github.com/svodnik/sfjs5/tree/master/03-conditionals-functions). Bonus: random address generator. - _contains reading for next week_ | Conditionals & Functions | Tuesday, November 15th 
- 4 | - | - | -
+ 4 | [Hubot lab](https://github.com/svodnik/sfjs5/tree/master/05-slackbot-lab). _- contains reading for next week_ | Hubot in-class lab | Tuesday, November 22nd
  5 | - | - | -
