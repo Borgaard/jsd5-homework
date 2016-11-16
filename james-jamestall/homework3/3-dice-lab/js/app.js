@@ -67,7 +67,6 @@ function rollDice() {
 	document.getElementById("second-die").className = secondDieClass; 
 }
 
-document.getElementById("roll-dice").onclick = rollDice();	
-
+document.getElementById("roll-dice").addEventListener('click', rollDice);
 
 
