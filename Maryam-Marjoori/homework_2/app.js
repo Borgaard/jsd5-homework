@@ -37,8 +37,29 @@ for ( var count = totalBear ; count > 0 ; count-- ) {
 console.log("\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.");
 
 
+// var totalBear = 99;
+// for ( var count = totalBear ; count > 0 ; count-- ) {
+//     var countRemain = count - 1;
+    
+//     // var currentBottle = (count > 1) ? 'bottles' : 'bottle';
+    
+//     if (count > 1) {
+//         currentBottle = 'bottles';
+//     } else {
+//         currentBottle = 'bottle';
+//     }
+    
+//     var remainingBottle;
+//     if (countRemain > 1) {
+      
 
+//         remainingBottle = 'bottles';
+//     } else {
+//         remainingBottle = 'bottle';
+//     }
 
+//     console.log("\n" + count + ' ' + currentBottle + " of beer on the wall , " + count + ' ' + currentBottle + " of beer. \nTake one down and pass it around, " + countRemain + ' ' + remainingBottle + " of beer on the wall.")
+// }
 
 
 
