@@ -20,7 +20,7 @@ Optional bonus work on conditionals and functions:
 				'NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','MD','MA','MI','MN','MS','MO','PA','RI','SC','SD','TN','TX',
 				'UT','VT','VA','WA','WV','WI','WY'];
 	
-	function createRandomAddress(single) { //adds a randomized, formated address string to the array
+	function createRandomAddress() { //adds a randomized, formated address string to the array
 
 		function randNum(min, max){	// used to select the value at that array index
 			return Math.round(Math.random()* (max - min) + min); 
