@@ -46,21 +46,27 @@ button.onclick = functionName()
 // do same thing for the 2nd die
 // create a listener for button.click events that updates the updates the die images
 
-
-function rollDice() {
-	var random1 = Math.ceil((Math.random()*6));
-	var random2 = Math.ceil((Math.random()*6));
-	document.getElementById("first-die").className = "dice dice-" + random1;
-	document.getElementById("second-die").className = "dice dice-" + random2;
-}
-
 // Old attempt
 // function rollDice() {
 // 	var random1 = Math.ceil((Math.random()*6));
 // 	var random2 = Math.ceil((Math.random()*6));
-	// var firstDieClass = "dice dice-" + random1;
-	// var secondDieClass = "dice dice-" + random2;
-	// document.getElementById("first-die").className = firstDieClass;
-	// document.getElementById("second-die").className = secondDieClass;
+// 	document.getElementById("first-die").className = "dice dice-" + random1;
+// 	document.getElementById("second-die").className = "dice dice-" + random2;
 // }
+
+
+
+function rollDice() {
+	var random1 = Math.ceil((Math.random()*6));
+	var random2 = Math.ceil((Math.random()*6));
+
+	var firstDieClass = "dice dice-" + random1;
+	var secondDieClass = "dice dice-" + random2;
+
+	document.getElementById("first-die").className = firstDieClass;
+	document.getElementById("second-die").className = secondDieClass; 
+}
+
+document.getElementById("roll-dice").addEventListener('click', rollDice);
+
 

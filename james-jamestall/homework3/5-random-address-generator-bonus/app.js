@@ -29,20 +29,51 @@ var stateName = [];
 
 var zipCode = [];
 
-// Build a script to generate random street numbers and zip code, and figure out how to convert numbers to letters to randomly generate state name
+// generate a random street number
+function generateStreetNumber() {
 
+	return Math.ceil(Math.random() * 20000);
 
+}
+
+// Generate a random state name (they will likely be jibberish)
+function generateStateName() {
+
+	return (String.fromCharCode((Math.floor(Math.random() * 26)) + 65))+(String.fromCharCode((Math.floor(Math.random() * 26)) + 65))
+
+}
+
+//Generates a random number between 0 and 9 as a string (because zip codes can be 00042, and if a number it converst to 42)
+function randomNumberToString() {
+	var numberAsString = ((Math.floor(Math.random() * 9)).toString());
+
+	return numberAsString;
+
+}
+
+//Generates a zip code by adding 5 randomNumberToString outputs into a single string
+function generateZipCode() {
+
+	var zipCodeTemp = randomNumberToString();
+
+	for (var i = 0; i < 4; i++) {
+		zipCodeTemp = zipCodeTemp + randomNumberToString();
+	}
+
+	return zipCodeTemp
+}
+
+//Populate each of the exising empty arrays with 10 entries
 for (var i = 0; i <= 10; i++) {
 	// Create an address number
-	streetNumber[i] = Math.ceil(Math.random() * 20000);
+	streetNumber[i] = generateStreetNumber();
 	// Make up a silly State Name
-	stateName[i] = (String.fromCharCode((Math.floor(Math.random() * 26)) + 65))+(String.fromCharCode((Math.floor(Math.random() * 26)) + 65));
+	stateName[i] = generateStateName(); 
 	// Create a zip code (little tricky because you need 5 digits, yet 00032 is valid)
-	zipCode[i] = ((Math.floor(Math.random() * 9)).toString() + (Math.floor(Math.random() * 9)).toString() + (Math.floor(Math.random() * 9)).toString() + (Math.floor(Math.random() * 9)).toString() + (Math.floor(Math.random() * 9)).toString());
+	zipCode[i] = generateZipCode();
 }
 
 // Create arrays with 10 entries of dummy data for "street name" and "city name"
-
 var streetName = ["Second Street", "Third Street", "First Street", "Fourth Street", "Park Street", "Fifth Street", "Main Street", "Sixth Street", "Oak Street", "Seventh Street"];
 
 var cityName = ["New York", "Los Angeles", "Chicago", "Houston", "Philadelphia", "Phoenix", "San Antonio", "San Diego", "Dallas", "San Jose"];
@@ -54,12 +85,11 @@ var randomNumber = function() {
 	return i;
 }
 
-console.log(randomNumber());
-console.log(randomNumber());
-
+//Generate the actual random address
 var generateAddress = function()  {
 	console.log(streetNumber[randomNumber()] + " " + streetName[randomNumber()] + ", " + cityName[randomNumber()] + " " + stateName[randomNumber()] + ", " + zipCode[randomNumber()]);
 }
+
 // figure out how to call the function on page load
 generateAddress();
 // Print a random address
