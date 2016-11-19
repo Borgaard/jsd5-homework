@@ -10,7 +10,6 @@
   conditional statements at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else).
 */
 
-
 var bottles
 for(
   bottles = 99; bottles > 0; bottles--
@@ -38,6 +37,8 @@ for(
     )
     }
 }
+/* next section for displaying*/
+
 for(
   bottles = 99; bottles > 0; bottles--
 ){
@@ -64,14 +65,3 @@ for(
     )
     }
 }
-
-
-
-
-
-/*
-'No more bottles of beer on the wall, no more bottles of beer.' + '\n'
-'Go to the store and buy some more, 99 bottles of beer on the wall.'
-
-
-*/
