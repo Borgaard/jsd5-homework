@@ -1,0 +1,14 @@
+a {
+	padding-left:8px;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:hover {
+	opacity: 0.75;
+}
+
+li.complete {
+	text-decoration: line-through;
+}

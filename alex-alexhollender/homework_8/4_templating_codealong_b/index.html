@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SF Weather</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>San Francisco Weather Forecast</h1>
+        
+        <script id="weather-template" type="text/x-handlebars-template">
+            <div><span>High: </span><span>{{high}}</span></div>
+            <div><span>Low: </span><span>{{low}}</span></div>
+            <div><span>Chance of Rain: </span><span>{{precip}}</span></div>
+            <div><span>UV level: </span><span>{{precip}}</span></div>
+        </script>
+
+        <script type="text/javascript" src="handlebars-v4.0.5.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

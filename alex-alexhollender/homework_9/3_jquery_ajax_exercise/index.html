@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p>Two different methods of displaying information from <a href="http://openweathermap.org" target="new">openweathermap.org</a> on a page via API 'get' calls (with jQuery).</p>
+  <p><strong>Method 1</strong> works in response to buttons being pressed. I store the different city IDs in the data-id attribute of the buttons, and then use those in the API call.</p>
+  <p><strong>Method 2</strong> prints out the information after the page has loaded. This this uses a for each loop to iterate over an array of objects I setup with the city IDs and the city names.</p> 
+  <br>
+  <hr>
+
+  <h3>Method 1</h3>
+  <input type="button" id="SF" value="San Francisco" data-id="SanFrancisco,us">
+  <input type="button" id="BTV" value="Burlington" data-id="BurlingtonVt,us">
+  <input type="button" id="NYC" value="New York City" data-id="NewYork,us">
+  <input type="button" id="NYC" value="London" data-id="London,us">
+
+  <div id="weatherResult">.</div>
+
+  <h3>Method 2</h3>
+  <div id="printOut"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</body>
+</html>
