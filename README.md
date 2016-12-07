@@ -50,5 +50,7 @@ Weekly Homework
  3 | [Dice, Ages, and FizzBuzz](https://github.com/svodnik/sfjs5/tree/master/03-conditionals-functions). Bonus: random address generator. - _contains reading for next week_ | Conditionals & Functions | Tuesday, November 15th
  4 | [Hubot lab](https://github.com/svodnik/sfjs5/tree/master/05-slackbot-lab). _- contains reading for next week_ | Hubot in-class lab | Tuesday, November 22nd
  5 | [Madlibs, 99 Bottles of Beer](https://github.com/svodnik/sfjs5/tree/master/07-dom-jquery-intro) - _contains reading for next week_ | Intro to the DOM & jQuery | Tuesday, November 29th
- 6 | [Recipes template](https://github.com/svodnik/sfjs5/tree/master/08-dom-jquery-cont) - _contains reading for next week_ | DOM & jQuery continued | Tuesday, December 6th
- 7 | - | - | -
+ 6 | [Recipes template](https://github.com/svodnik/sfjs5/tree/master/08-dom-jquery-cont) & [Open Weather API](https://github.com/svodnik/sfjs5/tree/master/09-ajax-apis) - _contains reading for next week_ | DOM & jQuery continued, Ajax & APIs | Tuesday, December 6th
+ 7 | [Zippopotam API](https://github.com/svodnik/sfjs5/tree/master/10-async-callbacks) | Async & Callbacks | Tuesday, December 13th
+ 8 | - | - | -
+ 9 | - | - | -
