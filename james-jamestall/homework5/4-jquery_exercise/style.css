@@ -1,0 +1,9 @@
+.task {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1
+}
+
+.complete-task {
+	text-decoration: line-through;
+}
