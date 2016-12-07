@@ -22,5 +22,5 @@ $('#save').on('click', function() {
 });
 
 $('#print').on('click', function() {
-	$('#favorites').text(saved.join('\n'))
+	$('#favorites').html(saved.join('<br>'))
 })
