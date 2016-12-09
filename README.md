@@ -52,5 +52,5 @@ Weekly Homework
  5 | [Madlibs, 99 Bottles of Beer](https://github.com/svodnik/sfjs5/tree/master/07-dom-jquery-intro) - _contains reading for next week_ | Intro to the DOM & jQuery | Tuesday, November 29th
  6 | [Recipes template](https://github.com/svodnik/sfjs5/tree/master/08-dom-jquery-cont) & [Open Weather API](https://github.com/svodnik/sfjs5/tree/master/09-ajax-apis) - _contains reading for next week_ | DOM & jQuery continued, Ajax & APIs | Tuesday, December 6th
  7 | [Zippopotam API](https://github.com/svodnik/sfjs5/tree/master/10-async-callbacks) | Async & Callbacks | Tuesday, December 13th
- 8 | - | - | -
+ 8 | [500px photos API](https://github.com/svodnik/sfjs5/tree/master/11-advanced-apis) | Advanced APIs | Tuesday, December 20th
  9 | - | - | -
