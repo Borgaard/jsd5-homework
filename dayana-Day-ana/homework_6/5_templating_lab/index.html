@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Popular Recipes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script id="recipes" type="text/x-handlebars-template">
+            <h1>Popular Recipes</h1>
+                {{#each recipe}}
+                <div class="recipe">
+                    <div><span>Name: </span><span>{{Name}}</span></div>
+                    <div><span>Serves: </span><span>{{Serves}}</span></div>
+                    <div><span>Meal: </span><span>{{Meal}}</span></div>
+                </div>
+                {{/each}}
+        </script>
+
+        <script type="text/javascript" src="handlebars-v4.0.5.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
