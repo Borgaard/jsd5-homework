@@ -51,8 +51,9 @@ Weekly Homework
  4 | [Hubot lab](https://github.com/svodnik/sfjs5/tree/master/05-slackbot-lab) _- contains reading for next week_ | Hubot in-class lab | Tuesday, November 22nd
  5 | [Madlibs, 99 Bottles of Beer](https://github.com/svodnik/sfjs5/tree/master/07-dom-jquery-intro) - _contains reading for next week_ | Intro to the DOM & jQuery | Tuesday, November 29th
  6 | [Recipes template](https://github.com/svodnik/sfjs5/tree/master/08-dom-jquery-cont) & [Open Weather API](https://github.com/svodnik/sfjs5/tree/master/09-ajax-apis) - _contains reading for next week_ | DOM & jQuery continued, Ajax & APIs | Tuesday, December 6th
- 7 | [Zippopotam API](https://github.com/svodnik/sfjs5/tree/master/10-async-callbacks) | Async & Callbacks | Tuesday, December 13th
- 8 | [500px photos API](https://github.com/svodnik/sfjs5/tree/master/11-advanced-apis) | Advanced APIs | Tuesday, December 20th
+ 7 | [Zippopotam API](https://github.com/svodnik/sfjs5/tree/master/10-async-callbacks) - _contains reading for next week_ | Async & Callbacks | Tuesday, December 13th
+ 8 | [500px photos API](https://github.com/svodnik/sfjs5/tree/master/11-advanced-apis) - _contains reading for next week_ | Advanced APIs | Tuesday, December 20th
  9 | [Feedr lab](https://github.com/svodnik/sfjs5/tree/master/12-feedr-lab) | Feedr APIs | Tuesday, January 3rd (3 weeks!)
- 10|  | - | -
+ 10| [Stocks](https://github.com/svodnik/sfjs5/tree/master/13-prototypal-inheritance) - _contains reading for next week_ | `.this` & Prototypal Inheritance | Tuesday, December 20th
  11|  | - | -
+ 12|  | - | -
