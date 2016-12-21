@@ -47,13 +47,13 @@ Weekly Homework
  :------: | :--------- | :---------- | :-------
  1 | [Eloquent JavaScript: interactive chapters 1 & 2](https://github.com/svodnik/sfjs5/tree/master/01-command-line-JS) | JavaScript on the command line | Thursday, November 3rd
  2 | [99 Bottles of Beer](https://github.com/svodnik/sfjs5/tree/master/02-data-types-loops) - _contains reading for next week_ | Data types & loops | Tuesday, November 8th
- 3 | [Dice, Ages, and FizzBuzz](https://github.com/svodnik/sfjs5/tree/master/03-conditionals-functions). Bonus: random address generator. - _contains reading for next week_ | Conditionals & Functions | Tuesday, November 15th
+ 3 | [Dice, Ages, and FizzBuzz](https://github.com/svodnik/sfjs5/tree/master/03-conditionals-functions) <br>Bonus: random address generator. - _contains reading for next week_ | Conditionals & Functions | Tuesday, November 15th
  4 | [Hubot lab](https://github.com/svodnik/sfjs5/tree/master/05-slackbot-lab) _- contains reading for next week_ | Hubot in-class lab | Tuesday, November 22nd
  5 | [Madlibs, 99 Bottles of Beer](https://github.com/svodnik/sfjs5/tree/master/07-dom-jquery-intro) - _contains reading for next week_ | Intro to the DOM & jQuery | Tuesday, November 29th
  6 | [Recipes template](https://github.com/svodnik/sfjs5/tree/master/08-dom-jquery-cont) & [Open Weather API](https://github.com/svodnik/sfjs5/tree/master/09-ajax-apis) - _contains reading for next week_ | DOM & jQuery continued, Ajax & APIs | Tuesday, December 6th
  7 | [Zippopotam API](https://github.com/svodnik/sfjs5/tree/master/10-async-callbacks) - _contains reading for next week_ | Async & Callbacks | Tuesday, December 13th
  8 | [500px photos API](https://github.com/svodnik/sfjs5/tree/master/11-advanced-apis) - _contains reading for next week_ | Advanced APIs | Tuesday, December 20th
  9 | [Feedr lab](https://github.com/svodnik/sfjs5/tree/master/12-feedr-lab) | Feedr APIs | Tuesday, January 3rd (3 weeks!)
- 10| [Stocks](https://github.com/svodnik/sfjs5/tree/master/13-prototypal-inheritance) - _contains reading for next week_ | `.this` & Prototypal Inheritance | Tuesday, December 20th
- 11|  | - | -
+ 10| [Stocks](https://github.com/svodnik/sfjs5/tree/master/13-prototypal-inheritance) - _contains reading for next week_ |  Prototypal Inheritance | Tuesday, December 20th
+ 11| [Person Module](https://github.com/svodnik/sfjs5/tree/master/14-module-pattern-this) <br>Recommended Bonus: Firebase code lab & preview of what we'll be doing when we return from break. | Module pattern & `.this` | Tuesday, January 3rd
  12|  | - | -
